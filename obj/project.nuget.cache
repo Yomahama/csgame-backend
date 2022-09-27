@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "1eOfH7t/SHDJhfiN1Xo3WFBDQbuv07RFaau2U2SP6VM0d77lTflAuGSzuUGH4Tl62WF8zBh5eT+v+csbgV5a2g==",
+  "dgSpecHash": "vEmrNLQq904awdIhwLC58SQw4XrenKsQ3zsebksin3VLkeXIhKOQuI0Q9yKl13rzdv9ABZ17cY1gNrxoEvFZ6Q==",
   "success": true,
-  "projectFilePath": "C:\\Univeras\\4_Kursas\\Objektinis programų projektavimas\\Projektas\\projektas_backend\\csgame-backend\\csgame-backend.csproj",
+  "projectFilePath": "/Users/rimas/Projects/csgame-backend/csgame-backend.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\abrom\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\abrom\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\abrom\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
-    "C:\\Users\\abrom\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\abrom\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\abrom\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\abrom\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "/Users/rimas/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/rimas/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/rimas/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.17.0/microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "/Users/rimas/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/rimas/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/rimas/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/rimas/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
   ],
   "logs": []
 }

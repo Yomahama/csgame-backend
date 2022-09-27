@@ -1,27 +1,54 @@
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\bin\Debug\net6.0\appsettings.Development.json
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\bin\Debug\net6.0\appsettings.json
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\bin\Debug\net6.0\csgame-backend.exe
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\bin\Debug\net6.0\csgame-backend.deps.json
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\bin\Debug\net6.0\csgame-backend.runtimeconfig.json
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\bin\Debug\net6.0\csgame-backend.dll
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\bin\Debug\net6.0\csgame-backend.pdb
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\csgame-backend.csproj.AssemblyReference.cache
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\csgame-backend.GeneratedMSBuildEditorConfig.editorconfig
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\csgame-backend.AssemblyInfoInputs.cache
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\csgame-backend.AssemblyInfo.cs
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\csgame-backend.csproj.CoreCompileInputs.cache
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\csgame-backend.MvcApplicationPartsAssemblyInfo.cs
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\csgame-backend.MvcApplicationPartsAssemblyInfo.cache
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\staticwebassets.build.json
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\staticwebassets.development.json
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\scopedcss\bundle\csgame-backend.styles.css
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\csgame-backend.csproj.CopyComplete
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\csgame-backend.dll
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\refint\csgame-backend.dll
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\csgame-backend.pdb
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\csgame-backend.genruntimeconfig.cache
-C:\Univeras\4_Kursas\Objektinis programų projektavimas\Projektas\projektas_backend\csgame-backend\obj\Debug\net6.0\ref\csgame-backend.dll
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/bin/Debug/net6.0/appsettings.Development.json
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/bin/Debug/net6.0/appsettings.json
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/bin/Debug/net6.0/csgame-backend.exe
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/bin/Debug/net6.0/csgame-backend.deps.json
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/bin/Debug/net6.0/csgame-backend.runtimeconfig.json
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/bin/Debug/net6.0/csgame-backend.dll
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/bin/Debug/net6.0/csgame-backend.pdb
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/csgame-backend.csproj.AssemblyReference.cache
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/csgame-backend.GeneratedMSBuildEditorConfig.editorconfig
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/csgame-backend.AssemblyInfoInputs.cache
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/csgame-backend.AssemblyInfo.cs
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/csgame-backend.csproj.CoreCompileInputs.cache
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/csgame-backend.MvcApplicationPartsAssemblyInfo.cs
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/csgame-backend.MvcApplicationPartsAssemblyInfo.cache
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/staticwebassets.build.json
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/staticwebassets.development.json
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/scopedcss/bundle/csgame-backend.styles.css
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/csgame-backend.csproj.CopyComplete
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/csgame-backend.dll
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/refint/csgame-backend.dll
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/csgame-backend.pdb
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/csgame-backend.genruntimeconfig.cache
+C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_backend/csgame-backend/obj/Debug/net6.0/ref/csgame-backend.dll
+/Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/appsettings.Development.json
+/Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/appsettings.json
+/Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/csgame-backend
+/Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/csgame-backend.deps.json
+/Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/csgame-backend.runtimeconfig.json
+/Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/csgame-backend.dll
+/Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/csgame-backend.pdb
+/Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.csproj.AssemblyReference.cache
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.AssemblyInfoInputs.cache
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.AssemblyInfo.cs
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.csproj.CoreCompileInputs.cache
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.MvcApplicationPartsAssemblyInfo.cs
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.MvcApplicationPartsAssemblyInfo.cache
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/staticwebassets.build.json
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/staticwebassets.development.json
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/scopedcss/bundle/csgame-backend.styles.css
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.csproj.CopyComplete
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.dll
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/refint/csgame-backend.dll
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.pdb
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.genruntimeconfig.cache
+/Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/ref/csgame-backend.dll
