@@ -1,3 +1,10 @@
+using System;
+using System.Net;
+using System.Net.WebSockets;
+using System.Text;
+using csgame_backend.player_websocket;
+using WebSocketSharp.Server;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,5 +26,10 @@ if (app.Environment.IsDevelopment())
 app.UseAuthorization();
 
 app.MapControllers();
+
+WebSocketServer wssv = new WebSocketServer("ws://127.0.0.1:8888");
+wssv.AddWebSocketService<Game>("/Game");
+wssv.Start();
+
 
 app.Run();

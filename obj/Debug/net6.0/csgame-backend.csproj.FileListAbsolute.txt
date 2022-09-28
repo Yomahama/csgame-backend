@@ -33,9 +33,11 @@ C:/Univeras/4_Kursas/Objektinis programų projektavimas/Projektas/projektas_back
 /Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/csgame-backend.dll
 /Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/csgame-backend.pdb
 /Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/rimas/Projects/csgame-backend/bin/Debug/net6.0/websocket-sharp.dll
 /Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.csproj.AssemblyReference.cache
 /Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.GeneratedMSBuildEditorConfig.editorconfig
 /Users/rimas/Projects/csgame-backend/obj/Debug/net6.0/csgame-backend.AssemblyInfoInputs.cache

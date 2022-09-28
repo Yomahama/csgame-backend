@@ -12,8 +12,7 @@
     "csgame_backend": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "http://localhost:5264",
+      "applicationUrl": "http://localhost:59049",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
