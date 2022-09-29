@@ -29,6 +29,7 @@ app.MapControllers();
 
 WebSocketServer wssv = new WebSocketServer("ws://127.0.0.1:8888");
 wssv.AddWebSocketService<Game>("/Game");
+wssv.AddWebSocketService<Projectile>("/Projectile");
 wssv.Start();
 
 

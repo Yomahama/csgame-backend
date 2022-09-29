@@ -21,7 +21,4 @@
     <None Remove="player_websocket\" />
     <None Remove="Newtonsoft.Json" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="player_websocket\" />
-  </ItemGroup>
 </Project>
