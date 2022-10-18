@@ -1,4 +1,5 @@
 ﻿using System;
+using csgame_backend.Data.Entities;
 using Newtonsoft.Json;
 
 namespace csgame_backend.player_websocket
@@ -12,6 +13,8 @@ namespace csgame_backend.player_websocket
         [JsonProperty("y")]
         public double PositionY { get; set; }
 
+        public List<Gun> guns;
+
         // radius of detection zone around the player position
         public double CollisionRadius { get; private set; }
 
@@ -21,6 +24,12 @@ namespace csgame_backend.player_websocket
             PositionX = positionX;
             PositionY = positionY;
             CollisionRadius = 20;//px
+            guns = new List<Gun>();
+        }
+
+        public void AddGun(Gun gun)
+        {
+            this.guns.Add(gun);
         }
 
         public override bool Equals(object? obj)
