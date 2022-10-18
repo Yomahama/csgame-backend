@@ -25,6 +25,7 @@ namespace csgame_backend.Patterns
         public void Reset(string username, double x, double y)
         {
             this.player = new Player(username,(int) x, (int) y);
+            
         }
         public Player Build(string username = "default", double x = 0, double y = 0)
         {

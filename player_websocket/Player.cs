@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Reflection.Metadata.Ecma335;
 using csgame_backend.Data.Entities;
+using csgame_backend.Patterns;
 using Newtonsoft.Json;
 
 namespace csgame_backend.player_websocket
 {
-    public class Player
+    public class Player : Prototype<Player>
     {
         [JsonProperty("username")]
         public string Username { get; set; }
@@ -41,6 +43,22 @@ namespace csgame_backend.player_websocket
         public override int GetHashCode()
         {
             return HashCode.Combine(Username);
+        }
+
+        public override Player? Clone()
+        {
+            try
+            {
+                Player? clone = this.MemberwiseClone() as Player;
+                if (clone == null) return null;
+                clone.Username = "Cloned_Player" + DateTime.Now.ToString();
+                return clone;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+            
         }
     }
 }
