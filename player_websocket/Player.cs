@@ -16,6 +16,7 @@ namespace csgame_backend.player_websocket
         public double PositionY { get; set; }
 
         public List<Gun> guns;
+        public int Health { get; set; }
 
         // radius of detection zone around the player position
         public double CollisionRadius { get; private set; }
