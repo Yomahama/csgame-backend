@@ -18,6 +18,7 @@ namespace csgame_backend.player_websocket
         public List<Gun> guns;
         public int Health { get; set; }
 
+        public Collision collision;
         // radius of detection zone around the player position
         public double CollisionRadius { get; private set; }
 
@@ -26,9 +27,10 @@ namespace csgame_backend.player_websocket
             Username = username;
             PositionX = positionX;
             PositionY = positionY;
-            CollisionRadius = 20;//px
+            collision = new Collision(Data.Resources.Collision_Type.CIRCLE, 40, 40);
             guns = new List<Gun>();
         }
+
 
         public void AddGun(Gun gun)
         {
@@ -60,6 +62,14 @@ namespace csgame_backend.player_websocket
                 return null;
             }
             
+        }
+
+        public override Player? DeepClone()
+        {
+            Player p = (Player)this.MemberwiseClone();
+
+            p.collision = collision.GetClone();
+            return p;
         }
     }
 }

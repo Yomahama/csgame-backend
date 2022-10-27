@@ -33,6 +33,7 @@ namespace csgame_backend.player_websocket
             {
                 _builder.AddGunPistol();
                 Player new_player = _builder.Build(unkown_data.Username, unkown_data.PositionX, unkown_data.PositionY);
+                _builder.Reset();
                 TeamSingleton.Instance.Teamm.Players.Add(unkown_data);
             }
             else // recognized as the player
