@@ -1,4 +1,5 @@
 ﻿using System;
+using csgame_backend.Patterns;
 using Newtonsoft.Json;
 using WebSocketSharp;
 using WebSocketSharp.Server;
@@ -7,27 +8,36 @@ namespace csgame_backend.player_websocket
 {
     public class Game : WebSocketBehavior
     {
+        private IBuilder _builder;
+
+        protected override void OnOpen()
+        {
+            _builder = new Builder();
+            base.OnOpen();
+        }
 
         protected override void OnMessage(MessageEventArgs args)
         {
             //Send("testas");
-            var player = JsonConvert.DeserializeObject<Player>(args.Data);
+            var unkown_data = JsonConvert.DeserializeObject<Player>(args.Data);
 
-            if(player == null)
+            if(unkown_data == null)
             {
                 Sessions.Broadcast("Error");
                 return;
             }
 
-            int index = TeamSingleton.Instance.Teamm.Players.IndexOf(player);
+            int index = TeamSingleton.Instance.Teamm.Players.IndexOf(unkown_data);
 
-            if (index == -1)
+            if (index == -1) // never seen this players' data before
             {
-                TeamSingleton.Instance.Teamm.Players.Add(player);
+                _builder.AddGunPistol();
+                Player new_player = _builder.Build(unkown_data.Username, unkown_data.PositionX, unkown_data.PositionY);
+                TeamSingleton.Instance.Teamm.Players.Add(unkown_data);
             }
-            else
+            else // recognized as the player
             {
-                TeamSingleton.Instance.Teamm.Players[index] = player;
+                TeamSingleton.Instance.Teamm.Players[index] = unkown_data;
             }
 
 
