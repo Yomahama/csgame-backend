@@ -28,6 +28,7 @@ namespace csgame_backend.player_websocket
             PositionX = positionX;
             PositionY = positionY;
             collision = new Collision(Data.Resources.Collision_Type.CIRCLE, 40, 40);
+            CollisionRadius = 20;
             guns = new List<Gun>();
         }
 
