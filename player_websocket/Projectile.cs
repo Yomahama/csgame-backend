@@ -57,15 +57,14 @@ namespace csgame_backend.player_websocket
                 // Found Player!
                 if (obj is Player)// this one can check more than players
                 {
-                    Console.WriteLine("Found player " + (obj as Player).Username);
+
                     _context.setStrategy(new ConcreteStrategyCheckforHitBulletPlayer());
                     if (_context.executeSrategy(bullet, obj as Player, out x_hit, out y_hit, m, b, Data.Resources.Collision_Type.CIRCLE))
                     {
-                        Console.WriteLine("Did calc for player");
+
                         unlucky_one = obj as Player;
                         break;
                     }
-                    Console.WriteLine("x_hit:" + x_hit.ToString() + " y_hit:" + y_hit.ToString());
 
                 } // found obsticle
                 else if (obj is Obstacle)// this one can check more than players
