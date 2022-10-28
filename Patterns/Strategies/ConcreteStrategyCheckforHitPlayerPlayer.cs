@@ -1,6 +1,6 @@
-﻿using csgame_backend.Data.Resources;
+﻿using csgame_backend.Data.Entities;
+using csgame_backend.Data.Resources;
 using csgame_backend.Helpers;
-using csgame_backend.player_websocket;
 using System.Numerics;
 
 namespace csgame_backend.Patterns.Strategies

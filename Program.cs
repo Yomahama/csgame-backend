@@ -2,6 +2,7 @@ using System;
 using System.Net;
 using System.Net.WebSockets;
 using System.Text;
+using csgame_backend.GameEnvironment_websocket;
 using csgame_backend.Patterns;
 using csgame_backend.player_websocket;
 using WebSocketSharp.Server;
@@ -31,6 +32,7 @@ app.MapControllers();
 WebSocketServer wssv = new WebSocketServer("ws://127.0.0.1:8888");
 wssv.AddWebSocketService<Game>("/Game");
 wssv.AddWebSocketService<Projectile>("/Projectile");
+wssv.AddWebSocketService<GameEnvironment>("/GameEnvironment");
 wssv.Start();
 
 

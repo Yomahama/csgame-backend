@@ -1,4 +1,5 @@
 ﻿using System;
+using csgame_backend.Data.Entities;
 using Newtonsoft.Json;
 
 namespace csgame_backend.player_websocket
