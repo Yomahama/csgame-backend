@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Reflection.Metadata.Ecma335;
-using csgame_backend.Data.Entities;
 using csgame_backend.Patterns;
 using Newtonsoft.Json;
 
-namespace csgame_backend.player_websocket
+namespace csgame_backend.Data.Entities
 {
     public class Player : Prototype<Player>
     {
@@ -16,7 +15,9 @@ namespace csgame_backend.player_websocket
         public double PositionY { get; set; }
 
         public List<Gun> guns;
+        public int Health { get; set; }
 
+        public Collision collision;
         // radius of detection zone around the player position
         public double CollisionRadius { get; private set; }
 
@@ -25,13 +26,15 @@ namespace csgame_backend.player_websocket
             Username = username;
             PositionX = positionX;
             PositionY = positionY;
-            CollisionRadius = 20;//px
+            collision = new Collision(Resources.Collision_Type.CIRCLE, 40, 40);
+            CollisionRadius = 20;
             guns = new List<Gun>();
         }
 
+
         public void AddGun(Gun gun)
         {
-            this.guns.Add(gun);
+            guns.Add(gun);
         }
 
         public override bool Equals(object? obj)
@@ -49,7 +52,7 @@ namespace csgame_backend.player_websocket
         {
             try
             {
-                Player? clone = this.MemberwiseClone() as Player;
+                Player? clone = MemberwiseClone() as Player;
                 if (clone == null) return null;
                 clone.Username = "Cloned_Player" + DateTime.Now.ToString();
                 return clone;
@@ -58,7 +61,15 @@ namespace csgame_backend.player_websocket
             {
                 return null;
             }
-            
+
+        }
+
+        public override Player? DeepClone()
+        {
+            Player p = (Player)MemberwiseClone();
+
+            p.collision = collision.GetClone();
+            return p;
         }
     }
 }

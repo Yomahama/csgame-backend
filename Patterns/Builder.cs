@@ -1,5 +1,4 @@
 ﻿using csgame_backend.Data.Entities;
-using csgame_backend.player_websocket;
 
 namespace csgame_backend.Patterns
 {
@@ -9,12 +8,12 @@ namespace csgame_backend.Patterns
         void AddGunSniper();
         void AddGunSubmachine();
         Player Build(string username = "default", double x = 0, double y = 0);
-        void Reset(string username, double x, double y);
+        void Reset();
     }
 
     public class Builder : IBuilder
     {
-        private Player player;
+        private Player? player;
 
 
         public Builder()
@@ -22,16 +21,16 @@ namespace csgame_backend.Patterns
             player = new Player("default", 0, 0);
         }
 
-        public void Reset(string username, double x, double y)
+        public void Reset()
         {
-            this.player = new Player(username,(int) x, (int) y);
-            
+            this.player = new Player("default", 0, 0);
+
         }
         public Player Build(string username = "default", double x = 0, double y = 0)
         {
             Player result = this.player;
 
-            this.Reset("default_player", 0, 0); // needs to be ready for next build
+            this.Reset(); // needs to be ready for next build
 
             return result;
         }
