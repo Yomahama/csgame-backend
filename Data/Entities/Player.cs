@@ -15,7 +15,7 @@ namespace csgame_backend.Data.Entities
         public double PositionY { get; set; }
 
         public List<Gun> guns;
-        public int Health { get; set; }
+        public float Health { get; set; }
 
         public Collision collision;
         // radius of detection zone around the player position
@@ -70,6 +70,18 @@ namespace csgame_backend.Data.Entities
 
             p.collision = collision.GetClone();
             return p;
+        }
+
+        /// <summary>
+        /// Damage function for the Command pattern
+        /// </summary>
+        public void TakeDamage(float amount)
+        {
+            Health -= amount;
+        }
+        public void UndoDamage(float amount)
+        {
+            Health += amount;
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using csgame_backend.Data.Entities;
 using csgame_backend.Patterns;
 using Newtonsoft.Json;
 using WebSocketSharp;
