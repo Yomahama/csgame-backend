@@ -8,6 +8,7 @@ namespace csgame_backend.Patterns
         bool CheckForHit(Bullet bullet, object? obj, double m, double b, out double? x_target, out double? y_target);
         double GetDistance(double x, double y, double x1, double y1);
         void Trajectory(double x, double y, double x1, double y1, out double m, out double b);
+        bool DropBomb();
     }
 
     public class Strategy : IStrategy
@@ -24,6 +25,10 @@ namespace csgame_backend.Patterns
         public double GetDistance(double x, double y, double x1, double y1)
         {
             return Math.Sqrt(Math.Pow(x - x1, 2) + Math.Pow(y - y1, 2));
+        }
+        public bool DropBomb()
+        {
+            return true;
         }
         public bool CheckForHit(Bullet bullet, object? obj, double m, double b, out double? x_target, out double? y_target)
         {
