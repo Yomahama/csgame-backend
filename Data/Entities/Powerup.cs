@@ -7,9 +7,3 @@
         public float healthRestore { get; set; }
     }
 }
-//public Gun(string name, float firerate, float damage)
-//{
-//    Name = name;
-//    FireRate = firerate;
-//    Damage = damage;
-//}
