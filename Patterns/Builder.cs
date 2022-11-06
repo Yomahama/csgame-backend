@@ -29,6 +29,9 @@ namespace csgame_backend.Patterns
         public Player Build(string username = "default", double x = 0, double y = 0)
         {
             Player result = this.player;
+            result.Username = username;
+            result.PositionX = x;
+            result.PositionY = y;
 
             this.Reset(); // needs to be ready for next build
 
