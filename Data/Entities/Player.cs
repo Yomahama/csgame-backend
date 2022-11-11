@@ -54,7 +54,8 @@ namespace csgame_backend.Data.Entities
             {
                 Player? clone = MemberwiseClone() as Player;
                 if (clone == null) return null;
-                clone.Username = "Cloned_Player" + DateTime.Now.ToString();
+                clone.Username = Username;
+                //clone.Username = "Cloned_Player" + DateTime.Now.ToString();
                 return clone;
             }
             catch (Exception)

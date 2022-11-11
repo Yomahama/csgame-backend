@@ -3,10 +3,15 @@ using System.Net;
 using System.Net.WebSockets;
 using System.Text;
 using csgame_backend.GameEnvironment_websocket;
+using csgame_backend.Helpers;
 using csgame_backend.Patterns;
 using csgame_backend.player_websocket;
 using WebSocketSharp.Server;
 
+// FOR TESTING ONLY
+TestHelpers helper = new TestHelpers();
+helper.testPrototype();
+// -------------------
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -37,3 +42,4 @@ wssv.Start();
 
 
 app.Run();
+
