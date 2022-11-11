@@ -1,7 +1,12 @@
-﻿namespace csgame_backend.Helpers
+﻿using csgame_backend.Data.Entities;
+using static csgame_backend.Helpers.Utils;
+
+namespace csgame_backend.Helpers
 {
-    public static class Utils
+
+    public class Utils
     {
+        
         public static void Trajectory(double x, double y, double x1, double y1, out double m, out double b)
         {
             m = 0;
