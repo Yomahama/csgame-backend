@@ -37,7 +37,8 @@ namespace csgame_backend.player_websocket
 
             objects.AddRange(players);
             
-            Utils.Trajectory(bullet.PositionX, bullet.PositionY, bullet.TargetX, bullet.TargetY, out double m, out double b);
+            Utils.Trajectory(bullet.PositionX, bullet.PositionY, 
+                bullet.TargetX, bullet.TargetY, out double m, out double b);
             double? x_hit = null;
             double? y_hit = null;
 

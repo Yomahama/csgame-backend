@@ -33,7 +33,8 @@ namespace csgame_backend.player_websocket
             if (index == -1) // never seen this players' data before
             {
                 _builder.AddGunPistol();
-                Player new_player = _builder.Build(unkown_data.Username, unkown_data.PositionX, unkown_data.PositionY);
+                Player new_player = _builder.Build(unkown_data.Username, 
+                    unkown_data.PositionX, unkown_data.PositionY);
                 _builder.Reset();
                 TeamSingleton.Instance.Teamm.Players.Add(unkown_data);
             }
