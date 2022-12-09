@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 using System.Reflection.Metadata.Ecma335;
 using csgame_backend.Patterns;
 using Newtonsoft.Json;
@@ -16,6 +17,8 @@ namespace csgame_backend.Data.Entities
 
         public List<Gun> guns;
         public float Health { get; set; }
+
+        private Vector2 state;
 
         public Collision collision;
         // radius of detection zone around the player position
@@ -83,6 +86,19 @@ namespace csgame_backend.Data.Entities
         public void UndoDamage(float amount)
         {
             Health += amount;
+        }
+
+        public void SetState(Vector2 state)
+        {
+            this.state = state;
+        }
+        public Memento Save()
+        {
+            return new Memento(state);
+        }
+        public void Restore(Memento m)
+        {
+            state = m.getState();
         }
     }
 }
